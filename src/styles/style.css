@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: blue;
+    color: white;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.footer {
+    background-color: whitesmoke;
+    color: black;
+    height: 30vh;
+    text-align: right;
+    padding: 10px;
+}
+
+.content {
+    height: 56vh;
+    text-align: center;
+}
+
+.main-button {
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* 45rem */
+
+.foodItem {
+    padding: 28px 40px;
+    display: inline-block;
+    @media (min-width: 45rem) {
+        display: black;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus {
+    flex-grow: 10;
+    background-color: blue;
+    color: white;
+}
+
+.minus {
+    flex-grow: 10;
+    background-color: hotpink;
+    color: white;
+}
+
+.itemDetails {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
